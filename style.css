@@ -70,7 +70,7 @@ main {
 .bracket {
   padding: 45px 0;
 }
-button {
+.heading_button {
   background-color: #cfc91d;
   border: none;
   padding: 15px 29px;
@@ -182,7 +182,6 @@ button {
 .project {
   width: 25%;
   position: relative;
-
 }
 .project_img img {
   width: 100%;
@@ -218,13 +217,69 @@ button {
   visibility: visible;
   opacity: 1;
 }
-.contact{
-  padding: 70px 0;
+.contact {
+  padding: 70px 0 0 0;
 }
-footer{
+footer {
   text-align: center;
   color: white;
   background-color: black;
   font-size: 12px;
   padding: 10px 0;
+}
+.input_container {
+  background-color: #0a0a0b;
+  padding: 60px 0;
+  margin-top: 50px;
+}
+.input_container input {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0;
+  outline: none;
+}
+.input_container input::placeholder {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+button {
+  margin: auto;
+  display: flex;
+  background-color: #cfc91d;
+  border: none;
+  padding: 10px 47px;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+hr {
+  height: 1px;
+  background: #cfc91d;
+  border: none;
+  margin: 10px 0;
+}
+.hr1{
+  width: 700px;
+  margin: auto;
+}
+.hr2{
+  width: 750px;
+  margin: auto;
+}
+.hr3{
+  width: 850px;
+  margin: auto;
+}
+.hr4{
+  width: 950px;
+  margin: auto;
 }
