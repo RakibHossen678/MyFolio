@@ -221,3 +221,10 @@ button {
 .contact{
   padding: 70px 0;
 }
+footer{
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  padding: 10px 0;
+}
